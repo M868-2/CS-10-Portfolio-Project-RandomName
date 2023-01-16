@@ -1,1 +1,19 @@
-/* CSS Style Sheet */
+html{
+    background: url("img/background2.avif") no-repeat center fixed;
+    background-size: cover;
+}
+body{
+    margin: auto;
+    border: 100px;
+    padding: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    color:azure;
+    font-size: 22px;
+    text-align: center;
+}
+
+button{
+    color: azure;
+    background-color: rgba(17, 81, 97, 0.2);
+    font-size: 18px;
+}
