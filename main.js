@@ -57,7 +57,26 @@ function bBtnClicked() {
   }
 }
 
-function btnClicked() {}
+function btnClicked() {
+  let randName2 = Math.random();
+  if (randName2 <= 0.12) {
+    outputEl2.innerHTML = "Eztli"
+  } else if (randName2 <= 0.24) {
+    outputEl2.innerHTML = "Arden";
+  } else if (randName2 <= 0.3) {
+    outputEl2.innerHTML = "Vendetta";
+  } else if (randName2 <= 0.4) {
+    outputEl2.innerHTML = "Asclephius";
+  } else if (randName2 <= 0.49) {
+    outputEl2.innerHTML = "Rune";
+  } else if (randName2 <= 0.59) {
+    outputEl2.innerHTML = "Mel" 
+  } else if (randName2 <= 0.70) {
+    outputEl2.innerHTML = "Isa"
+  } else if (randName2 <= 0.80) {
+    outputEl2.innerHTML = "Arius";
+  }
+}
 
 function lBtnClicked() {
   let randLName = Math.random();
@@ -65,15 +84,15 @@ function lBtnClicked() {
     outputEl3.innerHTML = "Ashwood";
   } else if (randLName <= 0.29) {
     outputEl3.innerHTML = "Netherdane";
-  } else if (randLName <= 0.4) {
-    outputEl3.innerHTML = "Ashford";
-  } else if (randName <= 0.55) {
+  } else if (randLName <= 0.40) {
+    outputEl3.innerHTML = "Auclair";
+  } else if (randLName <= 0.55) {
     outputEl3.innerHTML = "Morrow";
-  } else if (randName <= 0.65) {
+  } else if (randLName <= 0.65) {
     outputEl3.innerHTML = "Warner";
-  } else if (randName <= 0.78) {
+  } else if (randLName <= 0.78) {
     outputEl3.innerHTML = "Whitlock";
-  } else if (randName <= 0.89) {
+  } else if (randLName <= 0.89) {
     outputEl3.innerHTML = "Huxley";
   } else {
     outputEl3.innerHTML = "Spade";
